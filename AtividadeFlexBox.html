@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Flexbox</title>
+</head>
+<style>
+    header{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        background-color: rgb(176, 3, 211);
+
+    }
+    footer{
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        background-color: rgb(176, 3, 211);
+    }
+    aside{
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        background-color: red;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+    span{
+        background-color: green;
+    }
+</style>
+<header>Cabeçalho</header>
+  <body>
+        <div>
+            <span>Conteúdo Principal</span>
+        </div>
+        <aside>
+            Conteúdo Lateral
+        </aside>
+</body>
+    <footer>
+        Rodapé
+    </footer>
+</html>
