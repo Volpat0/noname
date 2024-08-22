@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer {
+            background-color: purple;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            flex: 1;
+        }
+
+        .conteudo-principal {
+            background-color: green;
+            flex: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+
+        .conteudo-lateral {
+            background-color: red;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>Cabeçalho</header>
+    
+    <main>
+        <div class="conteudo-principal">Conteúdo principal</div>
+        <div class="conteudo-lateral">Conteúdo lateral</div>
+    </main>
+
+    <footer>Rodapé</footer>
+</body>
+</html>

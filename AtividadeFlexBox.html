@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade Flexbox</title>
 </head>
 <style>
-    header{
+    footer,
+    header {
+        display: flex;
         flex-direction: column;
-        justify-content: start;
-        align-items: center;
+        padding-bottom: 7px;
         background-color: rgb(176, 3, 211);
-
-    }
-    footer{
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        background-color: rgb(176, 3, 211);
-    }
-    aside{
-        flex-direction: column;
-        justify-content: right;
-        align-items: center;
-        background-color: red;
     }
     div{
         display: flex;
-        flex-direction: column;
-    }
-    span{
-        background-color: green;
+        flex-direction: row;
     }
 </style>
-<header>Cabeçalho</header>
-  <body>
+<header style="display: flex;
+align-items: center;">Cabeçalho</header>
+<body>
+    <main>
         <div>
-            <span>Conteúdo Principal</span>
+            <span style="padding: 30%;
+            display: flex;
+            background-color: green;
+            justify-content: left;
+            align-items: center;">Conteúdo Principal</span>
+            <aside style="background-color: red;
+            display: flex;
+            padding: 11%;
+            align-items: center;
+            justify-content: right;">
+                Conteúdo Lateral
+            </aside>
         </div>
-        <aside>
-            Conteúdo Lateral
-        </aside>
+        <div>    
+        </div>
+    </main>
+    <footer style="display: flex;
+    justify-content: end;
+    align-items: center;">Rodapé</footer>
 </body>
-    <footer>
-        Rodapé
-    </footer>
+
 </html>
