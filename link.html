@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title> 
+        <!--<link rel="stylesheet" href="./exemplo-link.css">-->
+        <style>
+            #cor_verde{
+                color: green;
+            }
+            
+            p{
+                color: #58ca84;
+            }
+            .color-blue{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        <!-- ORDEM PRIORIDADE (STYLE)
+            4- tag - mais fraco, Ex.: p, div, h2, span
+            3- .nome-da-classe Ex: <div class = "nome-da-classe"> </div>
+            2- #nomeDoId, Ex.: <div id=nomeDoId"></div>
+            1- estilo em linha
+        -->
+        <p>
+            Um texto qualquer
+        </p>
+        <p class="color-blue">
+            Um texto qualquer
+        </p>
+        <p class="color-blue" id="cor_verde">
+            Um texto qualquer
+        </p>
+        
+    </body>
+</html>
