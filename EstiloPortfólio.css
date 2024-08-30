@@ -4,6 +4,16 @@ header{
     background-color: burlywood;
     padding: 5px;
 }
-p{
+header p{
     word-spacing: 70px;
+}
+div h2{
+    margin-left: 150px;
+}
+footer{
+    background-color: burlywood;
+    padding: 20px;
+}
+main h1{
+    margin-left: 615px;
 }

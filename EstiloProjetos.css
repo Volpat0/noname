@@ -1,0 +1,13 @@
+main h2{
+    margin-left: 100px
+}
+main div{
+    display: flex;
+    flex-direction: row;
+}
+main div img{
+    height: 350px;
+}
+main div p{
+    margin-left: 30px;
+}
