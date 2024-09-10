@@ -1,9 +1,9 @@
 console.log(document);
 
-const paragrafoTeste = document.getElementById('meuParagrafo');
-console.log(paragrafoTeste);
+//const paragrafoTeste = document.getElementById('meuParagrafo');
+//console.log(paragrafoTeste);
 
-paragrafoTeste.style.color = 'red';
+//paragrafoTeste.style.color = 'red';
 // paragrafoTeste.classList.add('minhaPrimeiraClasse')
 // console.log('paragrafoTeste.className', paragrafoTeste.classList);
 // console.log('paragrafoTeste.className', paragrafoTeste.className);
@@ -23,8 +23,9 @@ setInterval(() => {
     counter++;
 },1000);*/
 
-function mudaCorParagrafo(){
+/*function mudaCorParagrafo(){
     paragrafoTeste.style.color = 'Yellow';
+
 }
 function mudaCorParaVermelho(){
     paragrafoTeste.style.color = 'Red';
@@ -34,4 +35,4 @@ function mudaCorParaPreto(){
 }
 
 console.log(document.getElementsByClassName('minhaClasse'));
-console.log(document.getElementsByTagName('P'));
+console.log(document.getElementsByTagName('P'));*/
