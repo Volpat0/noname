@@ -1,0 +1,9 @@
+#addTarefa{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
